@@ -16,7 +16,7 @@ while True:
     elif choice=="2":
         inventory[input("Введите название предмета: ")]=int(input("Введите его вес: "))
     elif choice=="3":
-        inventory.pop(input("Введите название удаляемого предмета: "),["Предмет удалён"])
+        inventory.pop(input("Введите название удаляемого предмета: "),["Предмет не найден"])
     elif choice =="4":
         break
     else:
